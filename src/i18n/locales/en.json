@@ -1,0 +1,51 @@
+{
+  "counter": {
+    "label": "Monthly Hours Saved"
+  },
+  "hero": {
+    "title": "The CRM That Works for You — Not the Other Way Around",
+    "subtitle": "Say goodbye to complex workflows and manual data entry. Our intuitive dashboard uses AI to automate your routine tasks, giving you back hours of productivity each week.",
+    "cta": "Get Started"
+  },
+  "valueProposition": {
+    "title": "Why Businesses Choose Pretty Dashboard",
+    "subtitle": "Our platform is designed to eliminate busywork and give you back hours of productive time each week.",
+    "features": {
+      "reminders": {
+        "title": "Automated Reminders",
+        "description": "Never miss a follow-up with intelligent reminders that learn from your patterns and prioritize what matters most."
+      },
+      "invoices": {
+        "title": "AI-assisted Invoice-to-Journal Integrations",
+        "description": "Turn invoices into journal entries instantly with our AI that recognizes patterns and automates financial record-keeping."
+      },
+      "reports": {
+        "title": "AI-assisted Financial Reports",
+        "description": "Generate insightful financial reports with a click. Our AI analyzes trends and presents data in easy-to-understand visualizations."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Pretty Dashboard vs Others",
+    "subtitle": "See how we compare to traditional CRM solutions that consume more time than they save.",
+    "features": {
+      "followups": "Automated Client Follow-ups",
+      "invoiceProcessing": "AI Invoice Processing",
+      "reports": "Financial Report Generation",
+      "interface": "User-friendly Interface",
+      "hoursLabel": "Average Hours Saved Weekly",
+      "ourHours": "20+ hours",
+      "theirHours": "5 hours"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Don't just take our word for it. Here's what businesses like yours have experienced."
+  },
+  "cta": {
+    "title": "Ready to Save Hundreds of Hours?",
+    "subtitle": "Join thousands of businesses that have streamlined their operations and reclaimed their valuable time with Pretty Dashboard.",
+    "primary": "Get Started Now",
+    "secondary": "Schedule a Demo"
+  }
+}

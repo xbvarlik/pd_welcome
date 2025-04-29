@@ -1,0 +1,51 @@
+{
+  "counter": {
+    "label": "Aylık Tasarruf Edilen Saat"
+  },
+  "hero": {
+    "title": "Sizin İçin Çalışan CRM — Tersi Değil",
+    "subtitle": "Karmaşık iş akışlarına ve manuel veri girişine veda edin. Sezgisel gösterge panelimiz, AI ile rutin görevlerinizi otomatikleştirerek size her hafta saatler kazandırır.",
+    "cta": "Hemen Başlayın"
+  },
+  "valueProposition": {
+    "title": "İşletmeler Neden Pretty Dashboard'u Seçiyor",
+    "subtitle": "Platformumuz, gereksiz işleri ortadan kaldırmak ve size her hafta üretken zaman kazandırmak için tasarlandı.",
+    "features": {
+      "reminders": {
+        "title": "Otomatik Hatırlatıcılar",
+        "description": "Modellerinizden öğrenen ve önemli olanı öne çıkaran akıllı hatırlatıcılarla hiçbir takibi kaçırmayın."
+      },
+      "invoices": {
+        "title": "AI Destekli Fatura-Yevmiye Entegrasyonları",
+        "description": "AI'mız sayesinde faturaları anında yevmiye kayıtlarına dönüştürün, desenleri tanıyın ve finansal kayıt tutmayı otomatikleştirin."
+      },
+      "reports": {
+        "title": "AI Destekli Finansal Raporlar",
+        "description": "Tek tıkla anlamlı finansal raporlar oluşturun. AI'mız trendleri analiz eder ve verileri anlaşılır görselleştirmelerle sunar."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Pretty Dashboard ve Diğerleri",
+    "subtitle": "Zamandan tasarruf etmek yerine iş yükünüzü artıran geleneksel CRM çözümleriyle karşılaştırın.",
+    "features": {
+      "followups": "Otomatik Müşteri Takibi",
+      "invoiceProcessing": "AI Fatura İşleme",
+      "reports": "Finansal Rapor Oluşturma",
+      "interface": "Kullanıcı Dostu Arayüz",
+      "hoursLabel": "Haftalık Ortalama Tasarruf Edilen Saat",
+      "ourHours": "20+ saat",
+      "theirHours": "5 saat"
+    }
+  },
+  "testimonials": {
+    "title": "Müşterilerimiz Ne Diyor",
+    "subtitle": "Sadece bizim sözümüze güvenmeyin. İşte sizin gibi işletmelerin deneyimleri."
+  },
+  "cta": {
+    "title": "Yüzlerce Saat Tasarruf Etmeye Hazır mısınız?",
+    "subtitle": "Pretty Dashboard ile operasyonlarını düzene sokmuş ve değerli zamanlarını geri kazanmış binlerce işletmeye katılın.",
+    "primary": "Hemen Başlayın",
+    "secondary": "Demo Planlayın"
+  }
+}
