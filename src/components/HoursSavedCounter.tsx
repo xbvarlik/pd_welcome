@@ -21,7 +21,7 @@ const HoursSavedCounter: React.FC<HoursSavedCounterProps> = ({ maxValue }) => {
   }, [maxValue]);
 
   return (
-    <div className="fixed right-8 top-1/4 z-50 transform translate-y-[-50%] flex flex-col items-center">
+    <div className="fixed z-50 right-8 top-[20%] md:top-[20%] sm:top-[80%] flex flex-col items-center">
       <div className="bg-white/90 backdrop-blur-sm shadow-lg rounded-2xl px-4 py-3 transition-all duration-300 hover:shadow-xl">
         <div className="text-center">
           <div className="text-3xl font-bold text-blue-600 mb-1 transition-all">
