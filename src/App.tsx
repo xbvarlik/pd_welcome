@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Check, X, Clock, FileSpreadsheet, LineChart, Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { FAQSection } from './components/FAQSection';
+import { Header } from './components/Header';
+import valuePropositionData from './value-proposition.json';
+import { PricingSection } from './components/PricingSection';
 
 const HoursSavedCounter: React.FC<{ maxValue: number }> = ({ maxValue }) => {
   const [hoursValue, setHoursValue] = useState(0);
@@ -37,7 +41,7 @@ const HeroSection: React.FC = () => {
   const { t } = useTranslation();
   
   return (
-    <section className="bg-gradient-to-br from-blue-50 to-blue-100 pt-32 pb-24 px-6 md:px-12 lg:px-16">
+    <section id="hero" className="bg-gradient-to-br from-blue-50 to-blue-100 pt-32 pb-24 px-6 md:px-12 lg:px-16">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 max-w-4xl">
@@ -63,27 +67,13 @@ const HeroSection: React.FC = () => {
 
 const ValueProposition: React.FC = () => {
   const { t } = useTranslation();
-  
-  const features = [
-    {
-      title: t('valueProposition.features.reminders.title'),
-      description: t('valueProposition.features.reminders.description'),
-      icon: <Clock className="w-10 h-10 text-blue-600" />,
-    },
-    {
-      title: t('valueProposition.features.invoices.title'),
-      description: t('valueProposition.features.invoices.description'),
-      icon: <FileSpreadsheet className="w-10 h-10 text-blue-600" />,
-    },
-    {
-      title: t('valueProposition.features.reports.title'),
-      description: t('valueProposition.features.reports.description'),
-      icon: <LineChart className="w-10 h-10 text-blue-600" />,
-    },
+  const icons = [
+    <Clock className="w-10 h-10 text-blue-600" />,
+    <LineChart className="w-10 h-10 text-blue-600" />,
+    <FileSpreadsheet className="w-10 h-10 text-blue-600" />,
   ];
-
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-16 bg-white">
+    <section id="value-prop" className="py-20 px-6 md:px-12 lg:px-16 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -93,16 +83,15 @@ const ValueProposition: React.FC = () => {
             {t('valueProposition.subtitle')}
           </p>
         </div>
-        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {features.map((feature, index) => (
-            <div 
-              key={index} 
+          {valuePropositionData.map((feature, index) => (
+            <div
+              key={feature.title}
               className="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100"
             >
-              <div className="mb-5">{feature.icon}</div>
+              <div className="mb-5">{icons[index % icons.length]}</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <p className="text-gray-600">{feature.detail}</p>
             </div>
           ))}
         </div>
@@ -122,7 +111,7 @@ const ComparisonSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-16 bg-gray-50">
+    <section id="comparison" className="py-20 px-6 md:px-12 lg:px-16 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -203,7 +192,7 @@ const TestimonialsSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-16 bg-white">
+    <section id="testimonials" className="py-20 px-6 md:px-12 lg:px-16 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -254,7 +243,7 @@ const CallToAction: React.FC = () => {
   const { t } = useTranslation();
   
   return (
-    <section className="py-24 px-6 md:px-12 lg:px-16 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
+    <section id="cta" className="py-24 px-6 md:px-12 lg:px-16 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
           {t('cta.title')}
@@ -285,11 +274,14 @@ const CallToAction: React.FC = () => {
 const Dashboard: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
-      <HoursSavedCounter maxValue={80} />
+      <Header />
+      <HoursSavedCounter maxValue={40} />
       <HeroSection />
       <ValueProposition />
       <ComparisonSection />
       <TestimonialsSection />
+      <FAQSection />
+      <PricingSection />
       <CallToAction />
     </div>
   );

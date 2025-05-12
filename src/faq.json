@@ -1,0 +1,75 @@
+[
+    {
+      "category": "Ürün Hakkında",
+      "items": [
+        {
+          "q": "Pretty Dashboard nedir?",
+          "a": "CRM, ön muhasebe ve yapay zekayı bir araya getiren, danışmanlık firmalarına özel bir iş yönetim platformudur."
+        },
+        {
+          "q": "CRM ile neler yapabilirim?",
+          "a": "Müşteri takibi, belge talepleri, görüşme notları ve otomatik hatırlatıcılar gibi tüm ilişki yönetimi süreçlerinizi merkezileştirir."
+        },
+        {
+          "q": "Ön muhasebe modülü ne sunar?",
+          "a": "Gelir-gider takibi, cari hesap yönetimi, fatura kaydı ve KDV raporları gibi temel işlemleri kolayca yapmanızı sağlar."
+        },
+        {
+          "q": "Yapay zeka ne işe yarıyor?",
+          "a": "Mükelleflerinize özel vergi avantajı önerileri, hatırlatma üretimi ve otomatik veri analizleri sunar."
+        }
+      ]
+    },
+    {
+      "category": "Fiyatlandırma ve Üyelik",
+      "items": [
+        {
+          "q": "Aylık ve yıllık planlar arasında ne fark var?",
+          "a": "Yıllık plan %15 indirimlidir. Ayrıca AI kredi kotası daha yüksektir. Ancak erken iptal halinde aylık fiyata göre fark tahsil edilir."
+        },
+        {
+          "q": "Sınırsız mükellef hakkı var mı?",
+          "a": "Evet, tüm planlarda sınırsız mükellef kaydı yapılabilir."
+        },
+        {
+          "q": "Planımı sonra değiştirebilir miyim?",
+          "a": "Evet, istediğiniz zaman plan yükseltebilir veya kullanıcı sayısı ekleyebilirsiniz. Yıllık planda indirim iptali farkı alınır."
+        },
+        {
+          "q": "Fiyatlara KDV dahil mi?",
+          "a": "Evet, fiyatlara KDV dahildir."
+        }
+      ]
+    },
+    {
+      "category": "Teknik ve Güvenlik",
+      "items": [
+        {
+          "q": "Verilerim güvende mi?",
+          "a": "Tüm veriler KVKK uyumlu şekilde Türkiye lokasyonlu sunucularda şifreli biçimde saklanır."
+        },
+        {
+          "q": "Mobil ve tarayıcı uyumu var mı?",
+          "a": "Evet, tüm modern tarayıcılarla ve mobil cihazlarla %100 uyumludur."
+        }
+      ]
+    },
+    {
+      "category": "Satın Alma ve Destek",
+      "items": [
+        {
+          "q": "Demo talep edebilir miyim?",
+          "a": "Evet. Hemen demo formunu doldurarak ekibimizden 10 dakikalık bir tanıtım alabilirsiniz."
+        },
+        {
+          "q": "Ödemeler nasıl yapılıyor?",
+          "a": "Tüm ödemeler Stripe altyapısıyla güvenli şekilde alınır. İsteğe bağlı fatura kesilir."
+        },
+        {
+          "q": "İptal edersem ne olur?",
+          "a": "Aylık kullanıcılar dönemin sonunda çıkabilir. Yıllık kullanıcılar erken iptalde indirim farkını ödeyerek iptal edebilir."
+        }
+      ]
+    }
+  ]
+  

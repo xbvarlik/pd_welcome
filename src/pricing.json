@@ -1,0 +1,92 @@
+{
+    "pricing": {
+      "monthly": [
+        {
+          "name": "Standart",
+          "price": "1000₺/ay",
+          "features": [
+            "Sınırsız müşteri takibi",
+            "Sınırsız fatura işleme",
+            "Sınırsız rapor oluşturma ve kaydetme",
+            "Müşteri başına 10 hatırlatma / ay",
+            "500 AI kredisi",
+            "1 kullanıcı",
+            "Her ek kullanıcı: 500₺/ay"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "1500₺/ay",
+          "features": [
+            "Standart planın tüm özellikleri",
+            "Müşteri başına 20 hatırlatma / ay",
+            "1000 AI kredisi",
+            "2 kullanıcı",
+            "Her ek kullanıcı: 750₺/ay"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Özel Fiyatlandırma",
+          "features": [
+            "Premium planın tüm özellikleri",
+            "Müşteri başına 50 hatırlatma / ay",
+            "2500 AI kredisi",
+            "Sınırsız kullanıcı",
+            "Öncelikli destek ve özel entegrasyon seçenekleri"
+          ]
+        }
+      ],
+      "annual": [
+        {
+          "name": "Standart",
+          "price": "850₺/ay",
+          "annualPrice": "10.200₺/yıl",
+          "features": [
+            "Sınırsız müşteri takibi",
+            "Sınırsız fatura işleme",
+            "Sınırsız rapor oluşturma ve kaydetme",
+            "Müşteri başına 10 hatırlatma / ay",
+            "500 AI kredisi",
+            "1 kullanıcı",
+            "Her ek kullanıcı: 425₺/ay"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "1200₺/ay",
+          "annualPrice": "14.400₺/yıl",
+          "features": [
+            "Standart planın tüm özellikleri",
+            "Müşteri başına 20 hatırlatma / ay",
+            "1000 AI kredisi",
+            "2 kullanıcı",
+            "Her ek kullanıcı: 600₺/ay"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Özel Fiyatlandırma",
+          "annualPrice": " ",
+          "features": [
+            "Premium planın tüm özellikleri",
+            "Müşteri başına 50 hatırlatma / ay",
+            "2500 AI kredisi",
+            "Sınırsız kullanıcı",
+            "Öncelikli destek ve özel entegrasyon seçenekleri"
+          ]
+        }
+      ],
+      "extraAiCredits": [
+        {
+          "amount": 500,
+          "price": "500₺"
+        },
+        {
+          "amount": 1000,
+          "price": "750₺"
+        }
+      ]
+    }
+  }
+  
